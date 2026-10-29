@@ -1,5 +1,5 @@
 window.SITE_CONFIG = {
-  // Replace with your Formspree endpoint, for example: https://formspree.io/f/abcdwxyz
-  formEndpoint: "",
+  // FormSubmit requires a one-time email confirmation after the first test inquiry.
+  formEndpoint: "https://formsubmit.co/ajax/cherwood87@gmail.com",
   businessName: "Parcel & Patina"
 };

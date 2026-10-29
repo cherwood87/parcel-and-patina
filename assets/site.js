@@ -22,7 +22,7 @@
     if (!form.checkValidity()) { form.reportValidity(); status.textContent = "Please complete the required fields."; status.classList.add("error"); return; }
     if (form.elements.company_website.value) return;
     const endpoint = window.SITE_CONFIG && safeURL(window.SITE_CONFIG.formEndpoint);
-    if (!endpoint) { status.textContent = "Form service not connected yet. Add your Formspree endpoint in assets/config.js before launch."; status.classList.add("error"); return; }
+    if (!endpoint) { status.textContent = "The inquiry service is temporarily unavailable. Please try again later."; status.classList.add("error"); return; }
     const button = form.querySelector("button[type=submit]");
     button.disabled = true; button.textContent = "Sending…";
     try {

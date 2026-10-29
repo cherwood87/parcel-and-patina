@@ -144,10 +144,12 @@
       <div class="inquiry-copy">
         <p class="section-number">05 / Buyer inquiry</p>
         <h2 id="inquiry-title">Let’s find what your customers want next.</h2>
-        <p>Send a few details about your shop and the inventory you’re looking for. This form is ready to connect to Formspree; setup instructions are included with the site files.</p>
-        <p class="privacy-summary"><strong>Privacy note:</strong> Inquiry details are used only to respond and discuss potential orders. Don’t include payment information or other sensitive data. Configure your chosen form service’s retention and privacy settings before launch.</p>
+        <p>Send a few details about your shop and the inventory you’re looking for. Your inquiry will be delivered securely by FormSubmit.</p>
+        <p class="privacy-summary"><strong>Privacy note:</strong> Inquiry details are used only to respond and discuss potential orders. Don’t include payment information or other sensitive data. FormSubmit processes the form submission so it can be delivered by email.</p>
       </div>
       <form id="buyer-form" class="buyer-form" method="post" novalidate>
+        <input type="hidden" name="_subject" value="New Parcel &amp; Patina buyer inquiry">
+        <input type="hidden" name="_template" value="table">
         <div class="field-row">
           <label>First name <input name="first_name" autocomplete="given-name" required></label>
           <label>Last name <input name="last_name" autocomplete="family-name" required></label>
