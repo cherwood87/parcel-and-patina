@@ -1,2 +1,38 @@
-m«ëˆ§½©buªàºg§·
-+“ûr‰İ…©İÂ%zÆ¥zÈ­{÷b²ßÚ²Ç­³ø§½éí¢¼£±KæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+window.INVENTORY_ITEMS = [
+  {
+    title: "Premium outerwear example",
+    category: "Premium clothing",
+    status: "Set status: Current or Previously sourced",
+    image: "",
+    imageAlt: "",
+    wholesalePrice: null,
+    currency: "CAD",
+    comparableSoldPrice: null,
+    comparableSourceUrl: "",
+    note: "Replace with an actual item, condition notes, size and material details."
+  },
+  {
+    title: "Designer accessory example",
+    category: "Designer accessories",
+    status: "Set status: Current or Previously sourced",
+    image: "",
+    imageAlt: "",
+    wholesalePrice: null,
+    currency: "CAD",
+    comparableSoldPrice: null,
+    comparableSourceUrl: "",
+    note: "Add accurate identifying details and authentication information, if applicable."
+  },
+  {
+    title: "Vintage kitchenware example",
+    category: "Vintage kitchenware",
+    status: "Set status: Current or Previously sourced",
+    image: "",
+    imageAlt: "",
+    wholesalePrice: null,
+    currency: "CAD",
+    comparableSoldPrice: null,
+    comparableSourceUrl: "",
+    note: "Add measurements, maker marks, condition and any known era information."
+  }
+];

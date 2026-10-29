@@ -1,2 +1,21 @@
-m«ëˆ§½©buªàºg§·
-+“ûr‰Ý…©ÝÂ%zÆ¥zÈ­{÷b²ßÚ²Ç­³öëjw\²Å,j›jÇºà7an{¦Š)ßŠW¨¢ë_ŠW›n·š‘ºÞjG§r‡^v‹­¦ën¦)í¢X§zÊ•éà¶î˜7]yÊy×œ¡×¢ž›­†¥¥Ø¬¦V²¶¬™ë,j¢Šzn¶)éº×â•ç^}«¥µú+²×bžŠ.¶›­¢ëiº×â•ç^}«¥µú+²×hº
+.hero-art.logo-art {
+  min-height: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-art img {
+  display: block;
+  width: min(100%, 620px);
+  height: auto;
+  filter: drop-shadow(0 18px 24px rgb(36 34 31 / 8%));
+}
+
+@media (max-width: 900px) {
+  .hero-art.logo-art {
+    min-height: 0;
+    max-width: 660px;
+  }
+}

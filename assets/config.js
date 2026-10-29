@@ -1,2 +1,5 @@
-m«ëˆ§½©buªàºg§·
-+“ûr‰İ…©İÂ%zÆ¥zÈ­{÷b²ßÚ²Ç­³÷(ø Å,j›jÇºà7an{¦Š)ßŠW¨¢ë_ŠW›n·š‘ºŞjG§r‡^v‹­¦ën¦)í¢X§zÊ•éà¶î˜7]yÊy×œ¡×¢›­†¥¥Ø¬¦V²¶¬™ë,j¢Šzn¶)éº×â•ç^}«¥µú+²×bŠ.¶›­¢ëiº×â•ç^}«¥µú+²×hº
+window.SITE_CONFIG = {
+  // Replace with your Formspree endpoint, for example: https://formspree.io/f/abcdwxyz
+  formEndpoint: "",
+  businessName: "Parcel & Patina"
+};
